@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# ---------------------------------------------------------------------------
-# Created By  : Nicolas Reymond
-# Created Date: 27/08/2024
-# version ='1.0'
-# ---------------------------------------------------------------------------
+# File: ex_13_cone.py
+# Brief: Calcul du volume d’un cône
+# Author: Nicolas Reymond
+# version:1.2
+# Date: 27/08/2024
 
 # Import
 import math
