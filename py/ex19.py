@@ -6,7 +6,7 @@ secret_number = random.randint(0, 100)
 # Set the maximum number of attempts
 max_attempts = 10
 
-print(f"The computer has chosen a number between 0 and 100. Let's try to find it in less than {max_attempts} steps.")
+print(f"Guess a number between 0 and 100. and try to find it in less than {max_attempts} steps.")
 
 for attempt in range(1, max_attempts + 1):
     # The computer makes a guess
@@ -23,5 +23,4 @@ for attempt in range(1, max_attempts + 1):
         print(f"Win !! \n The secret number {secret_number} in {attempt} attempts.")
         break
 else:
-    print(f"Lose !! Couldn't find the number in {max_attempts} attempts.")
-    print(f"The secret number was {secret_number}.")
+    print(f"Lose !! Couldn't find the number in {max_attempts} attempts.\nThe secret number was {secret_number}.")

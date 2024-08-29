@@ -19,4 +19,4 @@ height = float(input("Enter height (h) in [m] : "))
 
 # Calculate and print the volume"
 volume = pi * radius ** 2 * height / 3
-print(f"Le volume du cône est de {volume:.2f}m3.")
+print(f"Le volume du cône est de {volume}m3.")
